@@ -14,3 +14,8 @@
 * {
  font-family: 'Open Sans', sans-serif;  
 }
+
+.Discord {
+ display:block;
+   background-image: url("discord.png");
+}
