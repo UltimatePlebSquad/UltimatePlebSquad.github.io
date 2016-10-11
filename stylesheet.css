@@ -1,4 +1,12 @@
 .jumbotron {
    background-image: url("The_birth_of_The_Police.png");
-   background-position-y: 9%;
+   background-position-y: 16%;
+}
+
+.jumbotron .h1, .jumbotron h1 {
+   color: seashell;
+}
+
+.jumbotron p {
+ color: seashell;  
 }
