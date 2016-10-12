@@ -19,4 +19,16 @@
 .Discord {
  display:block;
    background-image: url("discord.png");
+   width:256px;
+   height:256px;
+   color: transparent
+}
+
+body {
+	background-color: #b9eaff;
+}
+
+.Discord:hover {
+	color: transparent;
+	text-decoration:none
 }
