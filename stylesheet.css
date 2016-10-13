@@ -24,6 +24,41 @@
  font-family: 'Ubuntu', sans-serif;
 }
 
+.Aaron {
+	display:block;
+	background-image: url("aaron.png");
+	width: 256px;
+	height: 256px;
+	color: transparent;
+	-webkit-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out;
+	border-radius: 50%;
+}
+
+.Aaron:Hover {
+				color: transparent;
+	-ms-transform:scale(1.1);
+-webkit-transform:scale(1.1);
+transform:scale(1.1);
+}
+
+.Crash {
+	display:block;
+	background-image: url("crash.png");
+	width: 256px;
+	height: 256px;
+	color: transparent;
+	-webkit-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out;
+	border-radius: 50%;
+}
+
+.Crash:Hover {
+				color: transparent;
+	-ms-transform:scale(1.1);
+-webkit-transform:scale(1.1);
+transform:scale(1.1);
+}
 
 .Fires {
 	display:block;
