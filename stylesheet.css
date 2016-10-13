@@ -24,8 +24,28 @@
  font-family: 'Ubuntu', sans-serif;
 }
 
+
+.Fires {
+	display:block;
+	background-image: url("fires.png");
+	width: 256px;
+	height: 256px;
+	color: transparent;
+	-webkit-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out;
+	border-radius: 50%;
+}
+
+.Fires:Hover {
+			color: transparent;
+	-ms-transform:scale(1.1);
+-webkit-transform:scale(1.1);
+transform:scale(1.1);
+}
+
+
 .Missing {
-		 display:block;
+		display:block;
    background-image: url("missing.png");
 width: 256px;
 height: 256px;
@@ -69,6 +89,7 @@ color: transparent;
 transition:all .2s ease-in-out;
 border-radius: 50%;
 }
+
 
 .Waffle:Hover {
 		color: transparent;
