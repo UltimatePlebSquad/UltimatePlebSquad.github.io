@@ -59,7 +59,23 @@ border-radius: 50%;
 transform:scale(1.1);
 }
 
+.Waffle {
+		 display:block;
+   background-image: url("waffle.png");
+width: 256px;
+height: 256px;
+color: transparent;
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+border-radius: 50%;
+}
 
+.Waffle:Hover {
+		color: transparent;
+	-ms-transform:scale(1.1);
+-webkit-transform:scale(1.1);
+transform:scale(1.1);
+}
 
 
 
