@@ -2,7 +2,9 @@
 	color: #1abc9c;
 }
 
-
+.col-sm-4 {
+	padding-bottom:1%;
+}
 
 .jumbotron {
    background-image: url("The_birth_of_The_Police.png");
@@ -22,6 +24,46 @@
  font-family: 'Ubuntu', sans-serif;
 }
 
+.Missing {
+		 display:block;
+   background-image: url("missing.png");
+width: 256px;
+height: 256px;
+color: transparent;
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+border-radius: 50%;
+}
+
+.Missing:Hover {
+		color: transparent;
+	-ms-transform:scale(1.1);
+-webkit-transform:scale(1.1);
+transform:scale(1.1);
+}
+
+.Sev {
+	 display:block;
+   background-image: url("sev.png");
+width: 256px;
+height: 256px;
+color: transparent;
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+border-radius: 50%;
+}
+.Sev:Hover {
+	color: transparent;
+	-ms-transform:scale(1.1);
+-webkit-transform:scale(1.1);
+transform:scale(1.1);
+}
+
+
+
+
+
+
 .Discord {
  display:block;
    background-image: url("discord.png");
@@ -32,7 +74,6 @@ color: transparent;
 transition:all .2s ease-in-out;
 border-radius: 50%;
 }
-
 .Roster {
  display:block;
    background-image: url("roster.png");
