@@ -143,7 +143,23 @@ border-radius: 50%;
 transform:scale(1.1);
 }
 
+.jolteon {
+			 display:block;
+   background-image: url("jolteon.png");
+width: 256px;
+height: 256px;
+color: transparent;
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+border-radius: 50%;
+}
 
+.jolteon:Hover{
+			color: transparent;
+	-ms-transform:scale(1.1);
+-webkit-transform:scale(1.1);
+transform:scale(1.1);
+}
 
 
 .Discord {
