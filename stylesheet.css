@@ -1,6 +1,16 @@
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
 	color: #1abc9c;
 }
+.aboutlarge {
+	letter-spacing :10px;
+}
+.fires {
+	color: red;
+}
+
+.green {
+	color: limegreen;
+}
 
 .col-sm-4 {
 	padding-bottom:1%;
@@ -182,8 +192,8 @@ body {
 
 .navbar {
 	margin-bottom: 0;
-	padding-top: 10px;
-    padding-bottom: 10px;
+	padding-top: 2px;
+    padding-bottom: 2px;
     border: 0;
     border-radius: 0;
     margin-bottom: 0;
