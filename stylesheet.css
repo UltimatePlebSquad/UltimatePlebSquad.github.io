@@ -12,6 +12,24 @@
 	color: limegreen;
 }
 
+.kaoth {
+		display:block;
+	background-image: url("kaoth.png");
+	width: 256px;
+	height: 256px;
+	color: transparent;
+	-webkit-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out;
+	border-radius: 50%;
+}
+
+.kaoth:Hover {
+					color: transparent;
+	-ms-transform:scale(1.1);
+-webkit-transform:scale(1.1);
+transform:scale(1.1);
+}
+
 .col-sm-4 {
 	padding-bottom:1%;
 }
