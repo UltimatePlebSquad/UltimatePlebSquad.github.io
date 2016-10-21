@@ -274,6 +274,38 @@ color: transparent;
 transition:all .2s ease-in-out;
 border-radius: 50%;
 }
+.destinyclan {
+ display:block;
+   background-image: url("destinyclan.png");
+width: 256px;
+height: 256px;
+color: transparent;
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+border-radius: 50%;
+}
+.destinyclan:Hover {
+	color: transparent;
+	-ms-transform:scale(1.1);
+-webkit-transform:scale(1.1);
+transform:scale(1.1);
+}
+.haloclan {
+ display:block;
+   background-image: url("halologo.png");
+width: 256px;
+height: 256px;
+color: transparent;
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+border-radius: 50%;
+}
+.haloclan:Hover {
+	color: transparent;
+	-ms-transform:scale(1.1);
+-webkit-transform:scale(1.1);
+transform:scale(1.1);
+}
 .Roster {
  display:block;
    background-image: url("Logo.jpg");
