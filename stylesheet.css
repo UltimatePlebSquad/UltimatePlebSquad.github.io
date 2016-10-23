@@ -1,4 +1,11 @@
-
+.pinned a{
+	color: green;
+	font-size: larger;
+}
+.pinned a::after{
+	content: " - Pinned";
+	font-size: small;
+}
 
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
 	color: #1abc9c;
@@ -12,7 +19,6 @@
 		left: 0;
 		top: 0;
 		border-radius: 10%;
-		
 }
 
 .fires {
@@ -34,7 +40,7 @@
 
 .duska {
 		display:block;
-	background-image: url("duska.png");
+	background-image: url("assets/duska.png");
 	width: 256px;
 	height: 256px;
 	color: transparent;
@@ -52,7 +58,7 @@ transform:scale(1.1);
 
 .para {
 		display:block;
-	background-image: url("para.png");
+	background-image: url("assets/para.png");
 	width: 256px;
 	height: 256px;
 	color: transparent;
@@ -76,7 +82,7 @@ transform:scale(1.1);
 
 .kaoth {
 		display:block;
-	background-image: url("kaoth.png");
+	background-image: url("assets/kaoth.png");
 	width: 256px;
 	height: 256px;
 	color: transparent;
@@ -94,7 +100,7 @@ transform:scale(1.1);
 
 .kaiser {
 		display:block;
-	background-image: url("kaiser.png");
+	background-image: url("assets/kaiser.png");
 	width: 256px;
 	height: 256px;
 	color: transparent;
@@ -115,7 +121,7 @@ transform:scale(1.1);
 }
 
 .jumbotron {
-   background-image: url("The_birth_of_The_Police.png");
+   background-image: url("assets/The_birth_of_The_Police.png");
    background-position-y: 60%;
    background-size:Cover;
    position: relative;
@@ -135,7 +141,7 @@ transform:scale(1.1);
 
 .Aaron {
 	display:block;
-	background-image: url("aaron.png");
+	background-image: url("assets/aaron.png");
 	width: 256px;
 	height: 256px;
 	color: transparent;
@@ -153,7 +159,7 @@ transform:scale(1.1);
 
 .Crash {
 	display:block;
-	background-image: url("crash.png");
+	background-image: url("assets/crash.png");
 	width: 256px;
 	height: 256px;
 	color: transparent;
@@ -171,7 +177,7 @@ transform:scale(1.1);
 
 .Fires {
 	display:block;
-	background-image: url("fires.png");
+	background-image: url("assets/fires.png");
 	width: 256px;
 	height: 256px;
 	color: transparent;
@@ -190,7 +196,7 @@ transform:scale(1.1);
 
 .Missing {
 		display:block;
-   background-image: url("missing.png");
+   background-image: url("assets/missing.png");
 width: 256px;
 height: 256px;
 color: transparent;
@@ -208,7 +214,7 @@ transform:scale(1.1);
 
 .Sev {
 	 display:block;
-   background-image: url("sev.png");
+   background-image: url("assets/sev.png");
 width: 256px;
 height: 256px;
 color: transparent;
@@ -225,7 +231,7 @@ transform:scale(1.1);
 
 .Waffle {
 		 display:block;
-   background-image: url("waffle.png");
+   background-image: url("assets/waffle.png");
 width: 256px;
 height: 256px;
 color: transparent;
@@ -244,7 +250,7 @@ transform:scale(1.1);
 
 .jolteon {
 			 display:block;
-   background-image: url("jolteon.png");
+   background-image: url("assets/jolteon.png");
 width: 256px;
 height: 256px;
 color: transparent;
@@ -266,7 +272,7 @@ transform:scale(1.1);
 
 .Discord {
  display:block;
-   background-image: url("discord.png");
+   background-image: url("assets/discord.png");
 width: 256px;
 height: 256px;
 color: transparent;
@@ -276,7 +282,7 @@ border-radius: 50%;
 }
 .destinyclan {
  display:block;
-   background-image: url("destinyclan.png");
+   background-image: url("assets/destinyclan.png");
 width: 256px;
 height: 256px;
 color: transparent;
@@ -292,7 +298,7 @@ transform:scale(1.1);
 }
 .haloclan {
  display:block;
-   background-image: url("halologo.png");
+   background-image: url("assets/halologo.png");
 width: 256px;
 height: 256px;
 color: transparent;
@@ -308,7 +314,7 @@ transform:scale(1.1);
 }
 .Roster {
  display:block;
-   background-image: url("logo.png");
+   background-image: url("assets/logo.png");
    
 height: 256px;
 width: 256px;
