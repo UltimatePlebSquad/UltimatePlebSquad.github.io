@@ -1,0 +1,404 @@
+.pinned a{
+	color: green;
+	font-size: larger;
+}
+.pinned a::after{
+	content: " - Pinned";
+	font-size: small;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+	color: #1abc9c;
+}
+.aboutlarge {
+	letter-spacing :15px;
+}
+
+.jumbologo {
+		position:absolute;
+		left: 0;
+		top: 0;
+		border-radius: 10%;
+}
+
+.fires {
+	color: red;
+}
+
+.green {
+	color: limegreen;
+}
+
+.modteam {
+	color: #be00ff;
+	letter-spacing: 10px;
+}
+
+.scrubs {
+	letter-spacing: 5px;
+}
+
+.duska {
+		display:block;
+	background-image: url("assets/duska.png");
+	width: 256px;
+	height: 256px;
+	color: transparent;
+	-webkit-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out;
+	border-radius: 50%;
+}
+
+.duska:Hover {
+					color: transparent;
+	-ms-transform:scale(1.1);
+-webkit-transform:scale(1.1);
+transform:scale(1.1);
+}
+
+.para {
+		display:block;
+	background-image: url("assets/para.png");
+	width: 256px;
+	height: 256px;
+	color: transparent;
+	-webkit-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out;
+	border-radius: 50%;
+}
+
+.para:Hover {
+					color: transparent;
+	-ms-transform:scale(1.1);
+-webkit-transform:scale(1.1);
+transform:scale(1.1);
+}
+
+.paraspan {
+	color: red;
+	letter-spacing: 15px;
+	font-size: larger;
+}
+
+.kaoth {
+		display:block;
+	background-image: url("assets/kaoth.png");
+	width: 256px;
+	height: 256px;
+	color: transparent;
+	-webkit-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out;
+	border-radius: 50%;
+}
+
+.kaoth:Hover {
+					color: transparent;
+	-ms-transform:scale(1.1);
+-webkit-transform:scale(1.1);
+transform:scale(1.1);
+}
+
+.kaiser {
+		display:block;
+	background-image: url("assets/kaiser.png");
+	width: 256px;
+	height: 256px;
+	color: transparent;
+	-webkit-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out;
+	border-radius: 50%;
+}
+
+.kaiser:Hover {
+					color: transparent;
+	-ms-transform:scale(1.1);
+-webkit-transform:scale(1.1);
+transform:scale(1.1);
+}
+
+.col-sm-4 {
+	padding-bottom:1%;
+}
+
+.jumbotron {
+   background-image: url("assets/The_birth_of_The_Police.png");
+   background-position-y: 60%;
+   background-size:Cover;
+   position: relative;
+}
+
+.jumbotron .h1, .jumbotron h1 {
+   color: transparent;
+}
+
+.jumbotron p {
+ color: transparent;  
+}
+
+* {
+ font-family: 'Ubuntu', sans-serif;
+}
+
+.Aaron {
+	display:block;
+	background-image: url("assets/aaron.png");
+	width: 256px;
+	height: 256px;
+	color: transparent;
+	-webkit-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out;
+	border-radius: 50%;
+}
+
+.Aaron:Hover {
+				color: transparent;
+	-ms-transform:scale(1.1);
+-webkit-transform:scale(1.1);
+transform:scale(1.1);
+}
+
+.bio {
+	position: absolute;
+	top: 2%;
+}
+
+#crash2 {
+	position: relative;
+	-webkit-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out;
+}
+
+.Crash {
+	display:block;
+	background-image: url("assets/crash.png");
+	width: 256px;
+	height: 256px;
+	color: transparent;
+	
+	border-radius: 50%;
+}
+
+.Crash:Hover {
+				
+	-ms-transform:scale(1.1);
+-webkit-transform:scale(1.1);
+transform:scale(1.1);
+}
+
+.Fires {
+	display:block;
+	background-image: url("assets/fires.png");
+	width: 256px;
+	height: 256px;
+	color: transparent;
+	-webkit-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out;
+	border-radius: 50%;
+}
+
+.Fires:Hover {
+			color: transparent;
+	-ms-transform:scale(1.1);
+-webkit-transform:scale(1.1);
+transform:scale(1.1);
+}
+
+
+.Missing {
+		display:block;
+   background-image: url("assets/missing.png");
+width: 256px;
+height: 256px;
+color: transparent;
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+border-radius: 50%;
+}
+
+.Missing:Hover {
+		color: transparent;
+	-ms-transform:scale(1.1);
+-webkit-transform:scale(1.1);
+transform:scale(1.1);
+}
+
+.Sev {
+	 display:block;
+   background-image: url("assets/sev.png");
+width: 256px;
+height: 256px;
+color: transparent;
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+border-radius: 50%;
+}
+.Sev:Hover {
+	color: transparent;
+	-ms-transform:scale(1.1);
+-webkit-transform:scale(1.1);
+transform:scale(1.1);
+}
+
+.Waffle {
+		 display:block;
+   background-image: url("assets/waffle.png");
+width: 256px;
+height: 256px;
+color: transparent;
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+border-radius: 50%;
+}
+
+
+.Waffle:Hover {
+		color: transparent;
+	-ms-transform:scale(1.1);
+-webkit-transform:scale(1.1);
+transform:scale(1.1);
+}
+
+.jolteon {
+			 display:block;
+   background-image: url("assets/jolteon.png");
+width: 256px;
+height: 256px;
+color: transparent;
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+border-radius: 50%;
+}
+
+.jolteon:Hover{
+			color: transparent;
+	-ms-transform:scale(1.1);
+-webkit-transform:scale(1.1);
+transform:scale(1.1);
+}
+
+.row {
+	margin-right: 0;
+}
+
+.Discord {
+ display:block;
+   background-image: url("assets/discord.png");
+width: 256px;
+height: 256px;
+color: transparent;
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+border-radius: 50%;
+}
+.destinyclan {
+ display:block;
+   background-image: url("assets/destinyclan.png");
+width: 256px;
+height: 256px;
+color: transparent;
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+border-radius: 50%;
+}
+.destinyclan:Hover {
+	color: transparent;
+	-ms-transform:scale(1.1);
+-webkit-transform:scale(1.1);
+transform:scale(1.1);
+}
+.haloclan {
+ display:block;
+   background-image: url("assets/halologo.png");
+width: 256px;
+height: 256px;
+color: transparent;
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+border-radius: 50%;
+}
+.haloclan:Hover {
+	color: transparent;
+	-ms-transform:scale(1.1);
+-webkit-transform:scale(1.1);
+transform:scale(1.1);
+}
+.Roster {
+ display:block;
+   background-image: url("assets/logo.png");
+   
+height: 256px;
+width: 256px;
+color: transparent;
+border-radius: 50%;
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+}
+
+.Roster:Hover {
+	color: transparent;
+	-ms-transform:scale(1.1);
+-webkit-transform:scale(1.1);
+transform:scale(1.1);
+}
+.Discord:Hover {
+	color: transparent;
+	-ms-transform:scale(1.1);
+-webkit-transform:scale(1.1);
+transform:scale(1.1);
+}
+
+.btftext {
+	position: absolute;
+	bottom: 0;
+	left: 8%;
+}
+
+.backtofrontheader {
+	position: relative;
+	display:inline-block;
+}
+
+body {
+	background-color: #202020;
+	color: #f4f4f4;
+}
+
+.Discord:hover {
+	color: transparent;
+	text-decoration:none
+}
+
+.navbar {
+	margin-bottom: 0;
+	padding-top: 2px;
+    padding-bottom: 2px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+}
+
+.navbar-default .navbar-brand {
+	color: #fff;
+}
+
+.navbar-default {
+		background-color: #686868;
+		border-color: #878787;
+}
+
+.bg-5 { 
+    background-color: #2f2f2f;
+    color: #ffffff;
+	padding: 1%;
+
+}
